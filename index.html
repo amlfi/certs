@@ -1,564 +1,439 @@
 <!DOCTYPE html>
-<html lang="en-GB">
-  <head>
-    <!--! Metadata -->
-    <!-- #region (Metadata) -->
-    <!--* Std Metadata -->
-    <title>AF CERTS</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta name="author" content="A M L Fitzgerald" />
+<html lang="en-GB" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Fitzgerald — Certifications & Training</title>
+  <meta name="description" content="Professional certifications and training credentials for Anthony Fitzgerald — Production & Event Director.">
+  <meta name="author" content="Anthony Fitzgerald">
 
-    <!--* Open Graph -->
-    <meta name="title" property="og:title" content="Anthony's Certifications" />
-    <meta property="og:type" content="Article" />
-    <meta
-      name="image"
-      property="og:image"
-      content="https://i.ibb.co/Lx63hcL/1667px.png"
-    />
-    <meta name="image" property="og:image:width" content="400px" />
-    <meta name="image" property="og:image:height" content="400px" />
-    <meta
-      name="description"
-      property="og:description"
-      content="A collection of Anthony Fitzgerald's most recent professional certifications. Including such areas, as: Design, Web Development, Technology, Business, Safety and Engineering."
-    />
-    <meta property="og:url" content="https://amlfi.github.io/certs/" />
-    <!-- #endregion (Metadata) -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Anthony Fitzgerald — Certifications & Training">
+  <meta property="og:description" content="Professional certifications, licences, and training credentials.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/Anthony-HS-2_Square.jpg">
 
-    <!--! Links / Stylesheets -->
-    <!-- #region (Links) -->
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.json">
 
-    <!--* Bootstrap Stylesheet-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
+  <!-- Tailwind + DaisyUI CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4/dist/full.min.css" rel="stylesheet">
 
-    <!--* Animate on Scroll Stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
-    />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!--* Google Fonts (Open Sans) -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Sora', 'system-ui', 'sans-serif'],
+            body: ['"DM Sans"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            surface: {
+              900: '#0a0f1a',
+              800: '#111827',
+              700: '#1a2235',
+              600: '#243049',
+            },
+            accent: {
+              warm: '#d4915e',
+              gold: '#c9a84c',
+              cool: '#5e8fd4',
+            }
+          }
+        }
+      }
+    }
+  </script>
 
-    <!--* My Stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.min.css" />
+  <style>
+    [data-theme="dark"] {
+      --b1: 10 15 26;
+      --b2: 17 24 39;
+      --b3: 26 34 53;
+      --bc: 209 213 219;
+      --p: 212 165 94;
+      --pc: 10 15 26;
+      --s: 94 143 212;
+      --sc: 10 15 26;
+      --a: 196 144 78;
+      --ac: 10 15 26;
+      --n: 36 48 73;
+      --nc: 209 213 219;
+    }
 
-    <!--* Web App Manifest -->
-    <link rel="manifest" href="manifest.json" />
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: #0a0f1a;
+      min-height: 100vh;
+    }
 
-    <!-- * Icons -->
-    <!-- #region (Icons) -->
-    <!--/ Generics -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://i.ibb.co/GnzMJv0/favicon-32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://i.ibb.co/DkhCL74/favicon-76.png"
-      sizes="76x76"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://i.ibb.co/4SXbQVb/favicon-128.png"
-      sizes="128x128"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://i.ibb.co/PNMNMzd/favicon-192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://i.ibb.co/wrC4kFK/favicon-228.png"
-      sizes="228x228"
-    />
+    /* Subtle grain texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      opacity: 0.015;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+    }
 
-    <!--/ Android -->
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      sizes="196x196"
-      href="https://i.ibb.co/LvvPs3Y/favicon-196.png"
-    />
+    /* Card hover lift */
+    .cert-card {
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .cert-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+    }
 
-    <!--/ iOS -->
-    <link
-      rel="apple-touch-icon"
-      type="image/png"
-      href="https://i.ibb.co/hYXphx2/favicon-152.png"
-      sizes="152x152"
-    />
-    <link
-      rel="apple-touch-icon"
-      type="image/png"
-      href="apple-touch-icon.png"
-      sizes="180x180"
-    />
+    /* Stagger animation */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .cert-card {
+      animation: fadeSlideUp 0.35s ease forwards;
+      opacity: 0;
+    }
 
-    <!--/ Windows 8.1 + IE11 and above -->
-    <meta name="msapplication-config" content="browserconfig.xml" />
+    /* Category pill active state */
+    .filter-btn.active {
+      background: rgba(212, 145, 94, 0.15);
+      color: #d4915e;
+      border-color: rgba(212, 145, 94, 0.4);
+    }
 
-    <!--/ Safari Mask Icon -->
-    <link rel="mask-icon" href="pinned.svg" color="#1c2c59" />
-    <!-- #endregion (Icons) -->
+    /* Scrollbar styling */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0a0f1a; }
+    ::-webkit-scrollbar-thumb { background: #243049; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #36486a; }
 
-    <!--  #endregion (Links) -->
-  </head>
+    /* Hero gradient line */
+    .hero-line {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(212,145,94,0.4), transparent);
+    }
 
-  <body>
-    <!--/ Header Section -->
-    <div class="container" id="header">
-      <div class="row">
-        <div class="col headerCol">
-          <a href="https://www.makes.events" target="_blank" rel="noopener">
-            <img
-              src="assets/img/ME-Horiz-Sunset.svg"
-              alt="Makes.Events Logo"
-              class="zoomInSmall"
-            />
-          </a>
-        </div>
+    /* Section divider */
+    .section-line {
+      height: 1px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    }
+
+    /* Logo image in card */
+    .cert-logo {
+      max-height: 28px;
+      max-width: 100px;
+      object-fit: contain;
+      filter: brightness(0.85);
+      transition: filter 0.2s;
+    }
+    .cert-card:hover .cert-logo {
+      filter: brightness(1);
+    }
+
+    /* Smooth scroll for filter clicks */
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="text-gray-300">
+
+  <!-- Header -->
+  <header class="fixed top-0 w-full z-50 bg-surface-900/80 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+      <a href="https://makes.events" class="opacity-60 hover:opacity-100 transition-opacity">
+        <img src="assets/img/ME-Horiz-Sunset.svg" alt="Makes.Events" class="h-6">
+      </a>
+      <div class="flex items-center gap-4 text-sm text-gray-500">
+        <span id="cert-count" class="tabular-nums"></span>
+        <a href="https://www.linkedin.com/in/amlfitzgerald/" target="_blank" class="hover:text-accent-warm transition-colors">LinkedIn</a>
       </div>
     </div>
+  </header>
 
-    <!--/ Bio Section -->
-    <div class="container shadow" id="bioCtn">
-      <div class="row d-flex justify-content-between" id="bio">
-        <!-- Left Bio Col -->
-        <div class="col-sm-12 col-md-3" id="bioImg">
-          <img
-            class="rounded-circle shadow bioImg"
-            src="assets/img/Anthony-HS-2_Square.jpg"
-            alt="portrait"
-          />
-        </div>
-        <!-- Right Bio Col -->
-        <div class="col-sm-12 col-md-8 col-lg-9 rightBio">
-          <div class="row">
-            <div class="col">
-              <h3 class="title">CERTIFICATIONS & TRAINING</h3>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <h5>Anthony Fitzgerald</h5>
-            </div>
-          </div>
-          <div class="row" style="margin: 0;">
-            <p class="description" style="margin: 0 0 8px 0;">
-              I'm a successful event director with nearly 15 years of experience
-              leading festivals and events internationally. As the gateway
-              between the creative vision and the business realities, my role is
-              to deliver inspiring events in often challenging environments,
-              calmly and decisively across multiple markets and varied genres.
-              <br /><br />
-              The strength of my management practice stems from an
-              interdisciplinary career; seeking any opportunity to use
-              technology and creativity to navigate complex business
-              challenges.
-              <br /><br />
-            </p>
+  <!-- Hero -->
+  <section class="pt-28 pb-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row items-start gap-8 md:gap-12">
+        <!-- Portrait -->
+        <div class="shrink-0">
+          <div class="w-28 h-28 rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl">
+            <img src="assets/img/Anthony-HS-2_Square.jpg" alt="Anthony Fitzgerald" class="w-full h-full object-cover">
           </div>
         </div>
-      </div>
-    </div>
-
-    <!--/ Design Section -->
-    <div class="container" data-aos="fade" id="design">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/QMDKkhq/header-design.png"
-                alt="header image - design"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive table-hover">
-            <table class="table">
-              <tbody id="designHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
+        <!-- Bio -->
+        <div class="max-w-2xl">
+          <h1 class="font-display text-4xl md:text-5xl text-white mb-3 font-light tracking-tight">
+            Certifications & Training
+          </h1>
+          <p class="text-lg text-gray-400 leading-relaxed mb-2">
+            <span class="text-white font-medium">Anthony Fitzgerald</span> — Production & Event Director
+          </p>
+          <p class="text-gray-500 leading-relaxed text-[15px]">
+            Professional credentials spanning production safety, high-risk work licences,
+            financial management, technical design, web development, and food safety —
+            built across 17+ years delivering festivals, exhibitions, and large-scale live events
+            in Australia, New Zealand, the UK, and Europe.
+          </p>
         </div>
       </div>
+      <div class="hero-line mt-12"></div>
     </div>
+  </section>
 
-    <!--/ Web Dev Section -->
-    <div class="container" data-aos="fade-up" id="webDev">
-      <div class="row">
-        <div class="col" style="padding: 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/fphBHV1/header-web.png"
-                alt="header image - web dev"
-                loading="lazy"
-              />
+  <!-- Filters -->
+  <section class="sticky top-[53px] z-40 bg-surface-900/90 backdrop-blur-md border-b border-white/5 py-3">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-wrap gap-2" id="filters">
+        <button class="filter-btn active btn btn-sm btn-ghost border border-white/10 rounded-full text-xs font-medium tracking-wide" data-filter="all">
+          All
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates (grouped by category) -->
+  <main class="px-6 py-10">
+    <div class="max-w-6xl mx-auto" id="cert-sections">
+      <!-- Sections injected by JS -->
+    </div>
+    <div id="empty-state" class="hidden text-center py-20 text-gray-600">
+      No certificates in this category.
+    </div>
+  </main>
+
+  <!-- Certificate Image Modal -->
+  <dialog id="cert-modal" class="modal">
+    <div class="modal-box bg-surface-700 max-w-3xl p-2 rounded-2xl">
+      <div class="flex items-center justify-between px-4 py-2">
+        <h3 id="modal-title" class="text-sm font-medium text-gray-300 truncate"></h3>
+        <form method="dialog">
+          <button class="btn btn-sm btn-ghost btn-circle text-gray-500">✕</button>
+        </form>
+      </div>
+      <div class="px-2 pb-2">
+        <img id="modal-image" src="" alt="" class="w-full rounded-xl" loading="lazy">
+      </div>
+      <div class="px-4 pb-3">
+        <p id="modal-detail" class="text-xs text-gray-500"></p>
+      </div>
+    </div>
+    <form method="dialog" class="modal-backdrop bg-black/70 backdrop-blur-sm">
+      <button>close</button>
+    </form>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 mt-16">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-gray-600">
+        &copy; <span id="year"></span> Makes.Events
+      </p>
+      <div class="flex gap-6 text-xs text-gray-600">
+        <a href="https://www.linkedin.com/in/amlfitzgerald/" target="_blank" class="hover:text-gray-400 transition-colors">LinkedIn</a>
+        <a href="https://makes.events" target="_blank" class="hover:text-gray-400 transition-colors">Website</a>
+        <a href="https://github.com/amlfi" target="_blank" class="hover:text-gray-400 transition-colors">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // -- Config --
+    // To switch to Airtable later, replace this fetch with:
+    // const res = await fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, { headers: { Authorization: `Bearer ${API_KEY}` } });
+    // const data = (await res.json()).records.map(r => r.fields);
+    const DATA_URL = 'data/certificates.json';
+
+    // Category display order and metadata
+    const CATEGORY_ORDER = ['licenses', 'safety', 'business', 'engineering', 'design', 'webdev', 'networking'];
+
+    const CATEGORY_META = {
+      licenses:    { label: 'Licences & Trade', color: 'text-green-400', accent: 'border-green-400/20' },
+      safety:      { label: 'Safety & Compliance', color: 'text-amber-400', accent: 'border-amber-400/20' },
+      business:    { label: 'Business & Finance', color: 'text-blue-400', accent: 'border-blue-400/20' },
+      engineering: { label: 'Engineering', color: 'text-orange-400', accent: 'border-orange-400/20' },
+      design:      { label: 'Design & CAD', color: 'text-purple-400', accent: 'border-purple-400/20' },
+      webdev:      { label: 'Web Development', color: 'text-cyan-400', accent: 'border-cyan-400/20' },
+      networking:  { label: 'Networking & IT', color: 'text-teal-400', accent: 'border-teal-400/20' },
+    };
+
+    // -- State --
+    let allCerts = [];
+    let activeFilter = 'all';
+
+    // -- Init --
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    async function init() {
+      try {
+        const res = await fetch(DATA_URL);
+        allCerts = await res.json();
+
+        // Sort within each category: by date descending
+        allCerts.sort((a, b) => b.date.localeCompare(a.date));
+
+        buildFilters();
+        renderSections();
+        updateCount();
+      } catch (err) {
+        console.error('Failed to load certificates:', err);
+        document.getElementById('cert-sections').innerHTML =
+          '<p class="text-gray-500 text-center py-12">Failed to load certificates.</p>';
+      }
+    }
+
+    function buildFilters() {
+      const container = document.getElementById('filters');
+      const usedCategories = [...new Set(allCerts.map(c => c.category))];
+
+      // Build in defined order, only for categories that have certs
+      CATEGORY_ORDER.forEach(cat => {
+        if (!usedCategories.includes(cat)) return;
+        const meta = CATEGORY_META[cat];
+        const count = allCerts.filter(c => c.category === cat).length;
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn btn btn-sm btn-ghost border border-white/10 rounded-full text-xs font-medium tracking-wide';
+        btn.dataset.filter = cat;
+        btn.innerHTML = `${meta.label} <span class="ml-1 opacity-40">${count}</span>`;
+        btn.addEventListener('click', () => setFilter(cat));
+        container.appendChild(btn);
+      });
+
+      // Wire up "All" button
+      container.querySelector('[data-filter="all"]').addEventListener('click', () => setFilter('all'));
+    }
+
+    function setFilter(filter) {
+      activeFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+      });
+      renderSections();
+      updateCount();
+
+      // Scroll to top of content if filtering to a specific category
+      if (filter !== 'all') {
+        const section = document.getElementById(`section-${filter}`);
+        if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function updateCount() {
+      const visible = activeFilter === 'all' ? allCerts.length : allCerts.filter(c => c.category === activeFilter).length;
+      document.getElementById('cert-count').textContent = `${visible} credential${visible !== 1 ? 's' : ''}`;
+    }
+
+    function renderSections() {
+      const container = document.getElementById('cert-sections');
+      const empty = document.getElementById('empty-state');
+
+      const categoriesToShow = activeFilter === 'all'
+        ? CATEGORY_ORDER.filter(cat => allCerts.some(c => c.category === cat))
+        : [activeFilter];
+
+      if (categoriesToShow.length === 0) {
+        container.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+
+      empty.classList.add('hidden');
+      let cardIndex = 0;
+
+      container.innerHTML = categoriesToShow.map((cat, catIdx) => {
+        const meta = CATEGORY_META[cat] || { label: cat, color: 'text-gray-400', accent: 'border-white/5' };
+        const certs = allCerts.filter(c => c.category === cat);
+        if (certs.length === 0) return '';
+
+        const cardsHtml = certs.map(cert => {
+          const delay = cardIndex * 0.04;
+          cardIndex++;
+          return renderCard(cert, meta, delay);
+        }).join('');
+
+        const divider = catIdx > 0 ? '<div class="section-line mb-12"></div>' : '';
+
+        return `
+          ${divider}
+          <section id="section-${cat}" class="mb-14 scroll-mt-28">
+            <div class="flex items-center gap-3 mb-6">
+              <h2 class="font-display text-xl font-light ${meta.color} tracking-tight">${meta.label}</h2>
+              <span class="text-xs text-gray-600 tabular-nums">${certs.length}</span>
+              <div class="flex-1 h-px bg-white/5"></div>
             </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              ${cardsHtml}
+            </div>
+          </section>
+        `;
+      }).join('');
+    }
+
+    function renderCard(cert, meta, delay) {
+      const hasImage = cert.image !== null;
+      const clickable = hasImage ? `onclick="openModal('${cert.id}')" role="button" tabindex="0"` : '';
+      const cursor = hasImage ? 'cursor-pointer' : '';
+      const detailText = cert.detail ? `<p class="text-[11px] text-gray-600 mt-1 leading-snug">${cert.detail}</p>` : '';
+      const logoHtml = cert.logo ? `<img src="${cert.logo}" alt="${cert.issuerShort}" class="cert-logo" loading="lazy">` : '';
+
+      return `
+        <div class="cert-card bg-surface-700/50 border border-white/5 rounded-xl p-5 flex flex-col gap-3 ${cursor}"
+             ${clickable}
+             style="animation-delay: ${delay}s">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <h3 class="text-[15px] text-white font-medium leading-snug">${cert.name}</h3>
+            </div>
+            ${logoHtml ? `<div class="shrink-0 opacity-60">${logoHtml}</div>` : ''}
           </div>
-          <div class="table-responsive table-hover">
-            <table class="table">
-              <tbody id="webDevHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
+          ${detailText}
+          <div class="flex items-center justify-between mt-auto pt-2 border-t border-white/5">
+            <div class="flex items-center gap-2 text-[12px] text-gray-500">
+              <span>${cert.issuerShort}</span>
+              <span class="opacity-30">&middot;</span>
+              <span>${cert.displayDate}</span>
+              <span class="opacity-30">&middot;</span>
+              <span>${cert.duration}</span>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      `;
+    }
 
-    <!--/ Networking Section -->
-    <div class="container" data-aos="fade-up" id="networking">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/7Y6jfKd/header-networking.png"
-                alt="header image - networking"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive">
-            <table class="table">
-              <tbody id="networkingHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+    function openModal(certId) {
+      const cert = allCerts.find(c => c.id === certId);
+      if (!cert || !cert.image) return;
 
-    <!--/ Business Section  -->
-    <div class="container" data-aos="fade-up" id="business">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/HrHhR79/header-business.png"
-                alt="header image - business"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive">
-            <table class="table">
-              <tbody id="businessHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+      document.getElementById('modal-title').textContent = cert.name;
+      document.getElementById('modal-image').src = cert.image;
+      document.getElementById('modal-image').alt = cert.name;
+      document.getElementById('modal-detail').textContent =
+        `${cert.issuer} — ${cert.displayDate} — ${cert.duration}`;
 
-    <!--/ Safety Section -->
-    <div class="container" data-aos="fade-up" id="safety">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/GTTLQLY/header-safety.png"
-                alt="header image - safety"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive">
-            <table class="table">
-              <tbody id="safetyHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+      document.getElementById('cert-modal').showModal();
+    }
 
-    <!--/ Engineering Section -->
-    <div class="container" data-aos="fade-up" id="engineering">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/wySrZvy/header-engineering.png"
-                alt="header image - engineering"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive table-hover">
-            <table class="table">
-              <tbody id="engineeringHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.getElementById('cert-modal').close();
+      }
+    });
 
-    <!--/ Licenses Section  -->
-    <div class="container" data-aos="fade-up" id="licenses">
-      <div class="row">
-        <div class="col" style="padding: 0 0;">
-          <div class="row" style="margin: 0;">
-            <div class="col awardCat">
-              <img
-                class="catImg shadow"
-                src="https://i.ibb.co/km0JDL5/header-licenses.png"
-                alt="header image - licenses"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div class="table-responsive">
-            <table class="table">
-              <tbody id="licensesHB">
-                <!-- Templates inserted via handlebars.js -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+    // Go
+    init();
+  </script>
 
-    <!--/ Footer Section -->
-    <div class="container">
-      <div
-        id="footer"
-        class="justify-content-between align-items-baseline footer-dark"
-      >
-        <footer>
-          <div class="row align-items-baseline">
-            <!-- Left Footer -->
-            <div class="col text-left social">
-              <!-- LinkedIn Icon -->
-              <a
-                href="https://www.linkedin.com/in/anthonymfitzgerald/"
-                target="_blank"
-                aria-label="LinkedIn Link"
-                rel="noreferrer"
-              >
-                <img
-                  class="iconFoot"
-                  src="https://i.ibb.co/vBwGXDm/linkedin.png"
-                  alt="LinkedIn Icon"
-                  loading="lazy"
-                />
-              </a>
-              <!-- Facebook Icon -->
-              <a
-                href="https://www.facebook.com/anthony.m.fitzgerald/"
-                target="_blank"
-                aria-label="Facebook Link"
-                rel="noreferrer"
-              >
-                <img
-                  class="iconFoot"
-                  src="https://i.ibb.co/7tDTtfH/facebook-square.png"
-                  alt="Facebook Icon"
-                  loading="lazy"
-                />
-              </a>
-              <!-- Instagram Icon -->
-              <a
-                href="https://www.instagram.com/amlfitzgerald/"
-                target="_blank"
-                aria-label="Instagram Link"
-                rel="noreferrer"
-              >
-                <img
-                  class="iconFoot"
-                  src="https://i.ibb.co/8j0F1PN/instagram.png"
-                  alt="Instagram Icon"
-                  loading="lazy"
-                />
-              </a>
-              <!-- Twitter Icon -->
-              <a
-                href="https://twitter.com/AMLFITZ"
-                target="_blank"
-                aria-label="Twitter Link"
-                rel="noreferrer"
-              >
-                <img
-                  class="iconFoot iconFootBig"
-                  src="https://i.ibb.co/Hz8YgRq/twitter.png"
-                  alt="Twitter Icon"
-                  loading="lazy"
-                />
-              </a>
-            </div>
-
-            <!-- Right Footer -->
-            <div class="col align-items-baseline">
-              <p class="text-right copyright">Makes.Events © 2020</p>
-            </div>
-          </div>
-        </footer>
-      </div>
-    </div>
-
-    <!--/ Bouncing Arrow Fade on Scroll -->
-    <div class="containerScroll">
-      <div class="arrow bounce">
-        <i id="arrowI" class="fas fa-arrow-down fa-2x" aria-hidden="true"></i>
-      </div>
-    </div>
-
-    <!--/ Modal -->
-    <div
-      class="modal fade"
-      id="imagemodal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="myModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-head">
-            <button type="button" class="close" data-dismiss="modal">
-              <span aria-hidden="true">&times;</span
-              ><span class="sr-only">Close</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img src="#" class="imagepreview" />
-          </div>
-          <div class="modal-foot">
-            <p id="modal-caption">
-              <!-- Caption inserted via handlebars.js function -->
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--! Scripts -->
-    <!-- #region (Scripts) -->
-    <!--* Bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-
-    <!--* Animate on Scroll -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/aos.min.js"></script>
-
-    <!--* My Script File -->
-    <script src="assets/js/script.min.js"></script>
-
-    <!--* Font Awesome -->
-    <script defer src="assets/js/solid.min.js"></script>
-    <script defer src="assets/js/fontawesome.min.js"></script>
-
-    <!--* Handlebars -->
-    <!--/ Handlebars Template-->
-    <script id="templateHB" type="text/x-handlebars-template">
-      {{#each course}}
-        <tr>
-          <td class="logoCell left">
-            <a
-              class="tooltip-ctn"
-              href={{this.courseLink}}
-              target="_blank"
-              data-toggle="tooltip"
-              title="Click to view course details"
-              rel="noreferrer"
-            >
-              <img
-                class="logoImg zoomIn"
-                src={{this.courseLogoSrc}}
-                alt={{this.courseLogoAlt}}
-                loading="lazy"
-              />
-            </a>
-          </td>
-          <td
-            class="clickable-row certCell"
-            data-href={{this.certLink}}
-            rel="noreferrer"
-          >
-            {{this.programText}}
-            <span class="dblSlash">
-              /
-            </span>
-            {{this.specificText}}
-            <span class="dblSlash">
-              /
-            </span>
-            {{this.hrs}}
-            <span class="dblSlash">
-              /
-            </span>
-            <span class="date">
-              <em>
-                {{this.date}}
-              </em>
-            </span>
-          </td>
-          <td class="logoCell right">
-            <a
-              class="tooltip-ctn"
-              href={{this.certLink}}
-              data-toggle="tooltip"
-              title="Click to view certificate"
-              rel="noreferrer"
-            >
-              <img
-                class="logoImg logoImgRight zoomIn"
-                src={{this.providerLogoSrc}}
-                alt={{this.providerLogoAlt}}
-                loading="lazy"
-              />
-            </a>
-          </td>
-        </tr>
-      {{/each}}
-    </script>
-
-    <!--/ Handlebars Helpers-->
-    <span id="templateHBCert"></span>
-    <span id="certHB"></span>
-
-    <!--/ Handlebars Functions -->
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="assets/js/handlebars.min.js"></script>
-
-    <!-- #endregion (Scripts) -->
-  </body>
+</body>
 </html>

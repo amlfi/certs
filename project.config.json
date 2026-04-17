@@ -1,0 +1,14 @@
+{
+  "$schema": "https://mcpassistant.dev/schemas/project.config.json",
+  "projectName": "AF Certs",
+  "brand": "makes-events",
+  "voice": "casual",
+  "audience": "public",
+  "webStack": "daisyui",
+  "pageType": "portfolio",
+  "cloudflare": {
+    "zone": "makes.events",
+    "pagesProject": "certs",
+    "customDomain": "certs.makes.events"
+  }
+}

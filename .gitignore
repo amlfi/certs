@@ -19,3 +19,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Design source files — kept in Dropbox, not git
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xcf
+**/_Raw/
+**/_RAW/
+
+# OS / editor
+.DS_Store
+.vscode/

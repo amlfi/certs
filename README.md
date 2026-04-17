@@ -1,11 +1,16 @@
----
-permalink: /index.html
----
+# AF Certs
 
+Certifications & Training for Anthony Fitzgerald.
 
-20ME_CERT
-Certifications & Training for Anthony Fitzgerald
+**Live**: https://certs.makes.events
 
+## Stack
 
-URL:
-https://amlfi.github.io/certs
+- Static HTML (Tailwind + DaisyUI via CDN, DM Sans + Sora via Google Fonts)
+- Data: `data/certificates.json`
+- Hosting: Cloudflare Pages (auto-deploys from `main`)
+- Brand: Makes.Events (via `claude-kit/themes/brands/makes-events/`)
+
+## Development
+
+No build step. Edit HTML / data / assets, push `main`, Cloudflare auto-deploys in ~20s.
