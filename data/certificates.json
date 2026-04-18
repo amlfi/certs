@@ -39,7 +39,7 @@
     "duration": "6 units",
     "category": "safety",
     "status": "current",
-    "image": null,
+    "image": "assets/img/StJohn-cert.jpg",
     "logo": "assets/img/StJohn-horiz-logo.png",
     "courseUrl": null
   },
@@ -497,7 +497,7 @@
     "duration": "Full Path",
     "category": "webdev",
     "status": "complete",
-    "image": null,
+    "image": "assets/img/logo_webDev_color.svg",
     "logo": "assets/img/Codecademy_onWhite.svg",
     "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
   },
@@ -511,7 +511,7 @@
     "duration": "Full Path",
     "category": "webdev",
     "status": "complete",
-    "image": null,
+    "image": "assets/img/logo_codeFoundations_color.svg",
     "logo": "assets/img/Codecademy_onWhite.svg",
     "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
   },
@@ -609,7 +609,7 @@
     "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
+    "image": "assets/img/logo_GitHub_onBlack.svg",
     "logo": "assets/img/logo_git_color.svg",
     "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
   },
@@ -637,7 +637,7 @@
     "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
+    "image": "assets/img/logo_responsiveDesign_color.svg",
     "logo": "assets/img/logo_responsiveDesign_color.svg",
     "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
   },
@@ -651,7 +651,7 @@
     "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
+    "image": "assets/img/logo_commandLine_color.svg",
     "logo": "assets/img/logo_commandLine_color.svg",
     "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
   },
