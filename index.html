@@ -88,11 +88,17 @@
 
     /* Card hover lift */
     .cert-card {
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
     }
-    .cert-card:hover {
+    .cert-card.cursor-pointer:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+    }
+    .cert-card:not(.cursor-pointer) {
+      opacity: 0.55;
+    }
+    .cert-card:not(.cursor-pointer):hover {
+      opacity: 0.7;
     }
 
     /* Stagger animation */
@@ -222,7 +228,7 @@
           <button class="btn btn-sm btn-ghost btn-circle text-gray-500">✕</button>
         </form>
       </div>
-      <div class="px-2 pb-2">
+      <div class="px-2 pb-2" id="modal-image-container">
         <img id="modal-image" src="" alt="" class="w-full rounded-xl" loading="lazy">
       </div>
       <div class="px-4 pb-3">
@@ -299,10 +305,10 @@
       if (!cert.versions) return null;
       return cert.versions.find(v => v.current) || cert.versions[0];
     }
-    function imageUrl(version, size) {
+    function imageUrl(version, size, format = 'jpg') {
       // version.image is basename like 'certs/stjohn_advfa_2024_08'; we append size + ext
       if (!version || !version.image) return null;
-      return `assets/img/${version.image}-${size}.jpg`;
+      return `assets/img/${version.image}-${size}.${format}`;
     }
 
     function buildFilters() {
@@ -395,7 +401,7 @@
     function renderCard(cert, meta, delay) {
       const v = currentVersion(cert);
       const hasImage = !!(v && v.image);
-      const clickable = hasImage ? `onclick="openModal('${cert.id}')" role="button" tabindex="0"` : '';
+      const clickable = hasImage ? `onclick="openModal('${cert.id}')" role="button" tabindex="0" aria-label="View ${cert.name} certificate"` : `aria-label="${cert.name} — cert image not yet uploaded"`;
       const cursor = hasImage ? 'cursor-pointer' : '';
       const detailText = v?.detail ? `<p class="text-[11px] text-gray-600 mt-1 leading-snug">${v.detail}</p>` : '';
       const logoHtml = cert.logo ? `<img src="${cert.logo}" alt="${cert.issuerShort}" class="cert-logo" loading="lazy">` : '';
@@ -430,10 +436,14 @@
       if (!cert || !v || !v.image) return;
 
       document.getElementById('modal-title').textContent = cert.name;
-      document.getElementById('modal-image').src = imageUrl(v, 1600);
-      document.getElementById('modal-image').srcset = `${imageUrl(v, 600)} 600w, ${imageUrl(v, 1600)} 1600w`;
-      document.getElementById('modal-image').sizes = '(max-width: 768px) 90vw, 720px';
-      document.getElementById('modal-image').alt = cert.name;
+      // Replace <img> with <picture> containing WebP source + JPG fallback
+      const pictureHost = document.getElementById('modal-image-container');
+      pictureHost.innerHTML = `
+        <picture>
+          <source type="image/webp" srcset="${imageUrl(v, 600, 'webp')} 600w, ${imageUrl(v, 1600, 'webp')} 1600w" sizes="(max-width: 768px) 90vw, 720px">
+          <img id="modal-image" src="${imageUrl(v, 1600)}" srcset="${imageUrl(v, 600)} 600w, ${imageUrl(v, 1600)} 1600w" sizes="(max-width: 768px) 90vw, 720px" alt="${cert.name}" class="w-full rounded-xl" loading="lazy">
+        </picture>
+      `;
       document.getElementById('modal-detail').textContent =
         `${cert.issuer} — ${v.issuedDisplay || ''} — ${cert.duration || ''}`;
 
