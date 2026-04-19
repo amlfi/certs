@@ -281,7 +281,7 @@
         allCerts = await res.json();
 
         // Sort within each category: by date descending
-        allCerts.sort((a, b) => b.date.localeCompare(a.date));
+        allCerts.sort((a, b) => (currentVersion(b)?.issued || '').localeCompare(currentVersion(a)?.issued || ''));
 
         buildFilters();
         renderSections();
@@ -291,6 +291,18 @@
         document.getElementById('cert-sections').innerHTML =
           '<p class="text-gray-500 text-center py-12">Failed to load certificates.</p>';
       }
+    }
+
+
+    // ─── Version helpers (versioned certs schema) ────────────
+    function currentVersion(cert) {
+      if (!cert.versions) return null;
+      return cert.versions.find(v => v.current) || cert.versions[0];
+    }
+    function imageUrl(version, size) {
+      // version.image is basename like 'certs/stjohn_advfa_2024_08'; we append size + ext
+      if (!version || !version.image) return null;
+      return `assets/img/${version.image}-${size}.jpg`;
     }
 
     function buildFilters() {
@@ -381,10 +393,11 @@
     }
 
     function renderCard(cert, meta, delay) {
-      const hasImage = cert.image !== null;
+      const v = currentVersion(cert);
+      const hasImage = !!(v && v.image);
       const clickable = hasImage ? `onclick="openModal('${cert.id}')" role="button" tabindex="0"` : '';
       const cursor = hasImage ? 'cursor-pointer' : '';
-      const detailText = cert.detail ? `<p class="text-[11px] text-gray-600 mt-1 leading-snug">${cert.detail}</p>` : '';
+      const detailText = v?.detail ? `<p class="text-[11px] text-gray-600 mt-1 leading-snug">${v.detail}</p>` : '';
       const logoHtml = cert.logo ? `<img src="${cert.logo}" alt="${cert.issuerShort}" class="cert-logo" loading="lazy">` : '';
 
       return `
@@ -402,7 +415,7 @@
             <div class="flex items-center gap-2 text-[12px] text-gray-500">
               <span>${cert.issuerShort}</span>
               <span class="opacity-30">&middot;</span>
-              <span>${cert.displayDate}</span>
+              <span>${v?.issuedDisplay || ''}</span>
               <span class="opacity-30">&middot;</span>
               <span>${cert.duration}</span>
             </div>
@@ -413,13 +426,16 @@
 
     function openModal(certId) {
       const cert = allCerts.find(c => c.id === certId);
-      if (!cert || !cert.image) return;
+      const v = currentVersion(cert);
+      if (!cert || !v || !v.image) return;
 
       document.getElementById('modal-title').textContent = cert.name;
-      document.getElementById('modal-image').src = cert.image;
+      document.getElementById('modal-image').src = imageUrl(v, 1600);
+      document.getElementById('modal-image').srcset = `${imageUrl(v, 600)} 600w, ${imageUrl(v, 1600)} 1600w`;
+      document.getElementById('modal-image').sizes = '(max-width: 768px) 90vw, 720px';
       document.getElementById('modal-image').alt = cert.name;
       document.getElementById('modal-detail').textContent =
-        `${cert.issuer} — ${cert.displayDate} — ${cert.duration}`;
+        `${cert.issuer} — ${v.issuedDisplay || ''} — ${cert.duration || ''}`;
 
       document.getElementById('cert-modal').showModal();
     }

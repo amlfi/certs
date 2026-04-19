@@ -4,669 +4,899 @@
     "name": "Executive Leadership Programme",
     "issuer": "Saïd Business School, University of Oxford",
     "issuerShort": "Oxford",
-    "date": "2026-03",
-    "displayDate": "Mar 2026",
-    "duration": "12 weeks",
     "category": "business",
     "status": "current",
-    "image": null,
-    "logo": null,
-    "courseUrl": null
+    "duration": "12 weeks",
+    "versions": [
+      {
+        "issued": "2026-03",
+        "issuedDisplay": "Mar 2026",
+        "current": true
+      }
+    ]
   },
   {
     "id": "wa_hrwl",
     "name": "High Risk Work Licence (7 classes)",
     "issuer": "WorkSafe WA / DEMIRS",
     "issuerShort": "WorkSafe WA",
-    "date": "2024-02",
-    "displayDate": "Feb 2024",
-    "duration": "Multiple",
     "category": "licenses",
     "status": "current",
-    "expires": "Feb 2029",
-    "detail": "CN (Crane), DG (Dogging), LF (Forklift), RA (Advanced Rigging), RB (Basic Rigging), RI (Intermediate Rigging), WP (Boom EWP >11m)",
-    "image": null,
-    "logo": null,
-    "courseUrl": null
+    "duration": "Multiple",
+    "versions": [
+      {
+        "issued": "2024-02",
+        "issuedDisplay": "Feb 2024",
+        "current": true,
+        "expires": "Feb 2029",
+        "detail": "CN (Crane), DG (Dogging), LF (Forklift), RA (Advanced Rigging), RB (Basic Rigging), RI (Intermediate Rigging), WP (Boom EWP >11m)"
+      }
+    ]
   },
   {
     "id": "stjohn_advfa",
     "name": "Advanced First Aid (HLTAID014-016)",
     "issuer": "St John Ambulance QLD",
     "issuerShort": "St John QLD",
-    "date": "2024-08",
-    "displayDate": "Aug 2024",
-    "duration": "6 units",
     "category": "safety",
     "status": "current",
-    "image": "assets/img/StJohn-cert.jpg",
+    "duration": "6 units",
+    "versions": [
+      {
+        "issued": "2024-08",
+        "issuedDisplay": "Aug 2024",
+        "current": true,
+        "image": "certs/stjohn_advfa_2024_08"
+      }
+    ],
     "logo": "assets/img/StJohn-horiz-logo.png",
-    "courseUrl": null
+    "image": "certs/stjohn_advfa_2024_08"
   },
   {
     "id": "xero_advisor",
     "name": "Xero Advisor Certified",
     "issuer": "Xero",
     "issuerShort": "Xero",
-    "date": "2020-08",
-    "displayDate": "Aug 2020",
-    "duration": "17hrs",
     "category": "business",
     "status": "current",
-    "image": "assets/img/xero-Xero_Advisor_Certified-cert.jpg",
+    "duration": "17hrs",
+    "versions": [
+      {
+        "issued": "2020-08",
+        "issuedDisplay": "Aug 2020",
+        "current": true,
+        "image": "certs/xero_advisor_2020_08"
+      }
+    ],
+    "courseUrl": "https://www.xero.com/au/partner-programs/partners/partner-education/",
     "logo": "assets/img/xero-advisor-certified_onBlack_lgText.svg",
-    "courseUrl": "https://www.xero.com/au/partner-programs/partners/partner-education/"
+    "image": "certs/xero_advisor_2020_08"
   },
   {
     "id": "xero_payroll",
     "name": "Xero Payroll Certified",
     "issuer": "Xero",
     "issuerShort": "Xero",
-    "date": "2020-08",
-    "displayDate": "Aug 2020",
-    "duration": "11hrs",
     "category": "business",
     "status": "current",
-    "image": "assets/img/xero-Xero_Payroll_Certified-cert.jpg",
+    "duration": "11hrs",
+    "versions": [
+      {
+        "issued": "2020-08",
+        "issuedDisplay": "Aug 2020",
+        "current": true,
+        "image": "certs/xero_payroll_2020_08"
+      }
+    ],
+    "courseUrl": "https://www.xero.com/au/partner-programs/partners/partner-education/",
     "logo": "assets/img/xero-payroll-certified_long_onBlack.svg",
-    "courseUrl": "https://www.xero.com/au/partner-programs/partners/partner-education/"
+    "image": "certs/xero_payroll_2020_08"
   },
   {
     "id": "uoa_pm101",
     "name": "Introduction to Project Management",
     "issuer": "University of Adelaide (edX)",
     "issuerShort": "UoA / edX",
-    "date": "2020-08",
-    "displayDate": "Aug 2020",
-    "duration": "6 weeks",
     "category": "business",
     "status": "complete",
-    "image": "assets/img/UoA-PM101-certz.png",
+    "duration": "6 weeks",
+    "versions": [
+      {
+        "issued": "2020-08",
+        "issuedDisplay": "Aug 2020",
+        "current": true,
+        "image": "certs/uoa_pm101_2020_08"
+      }
+    ],
+    "courseUrl": "https://www.edx.org/course/introduction-to-project-management",
     "logo": "assets/img/UoA_onBlack_logo.svg",
-    "courseUrl": "https://www.edx.org/course/introduction-to-project-management"
+    "image": "certs/uoa_pm101_2020_08"
   },
   {
     "id": "ncrq_sfm",
     "name": "Safety for Managers",
     "issuer": "National Compliance & Risk Qualifications",
     "issuerShort": "NCRQ",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "12hrs + Oral",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/NCRQ-Safety_for_Managers-cert.jpg",
+    "duration": "12hrs + Oral",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "certs/ncrq_sfm_2020_06"
+      }
+    ],
     "logo": "assets/img/NCRQ.svg",
-    "courseUrl": null
+    "image": "certs/ncrq_sfm_2020_06"
   },
   {
     "id": "tou_compnet",
     "name": "Discovering Cisco Computer Networks",
     "issuer": "The Open University",
     "issuerShort": "Open Uni",
-    "date": "2020-07",
-    "displayDate": "Jul 2020",
-    "duration": "24hrs",
     "category": "networking",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/the-open-uni-logo.svg",
-    "courseUrl": null
+    "duration": "24hrs",
+    "versions": [
+      {
+        "issued": "2020-07",
+        "issuedDisplay": "Jul 2020",
+        "current": true
+      }
+    ],
+    "logo": "assets/img/the-open-uni-logo.svg"
   },
   {
     "id": "ncass_haccp",
     "name": "HACCP Certification Level 1 & 2",
     "issuer": "Nationwide Caterers Association (UK)",
     "issuerShort": "NCASS",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "8hrs",
     "category": "safety",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/NCASS_Logo.svg",
-    "courseUrl": null
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "logo": "assets/img/NCASS_Logo.svg"
   },
   {
     "id": "ncass_fh2",
     "name": "Food Hygiene Training Level 2",
     "issuer": "Nationwide Caterers Association (UK)",
     "issuerShort": "NCASS",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "4hrs",
     "category": "safety",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/NCASS_Logo.svg",
-    "courseUrl": null
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "logo": "assets/img/NCASS_Logo.svg"
   },
   {
     "id": "ncass_fh1",
     "name": "Food Hygiene Training Level 1",
     "issuer": "Nationwide Caterers Association (UK)",
     "issuerShort": "NCASS",
-    "date": "2016-06",
-    "displayDate": "Jun 2016",
-    "duration": "4hrs",
     "category": "safety",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/NCASS_Logo.svg",
-    "courseUrl": null
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2016-06",
+        "issuedDisplay": "Jun 2016",
+        "current": true
+      }
+    ],
+    "logo": "assets/img/NCASS_Logo.svg"
   },
   {
     "id": "who_cov19_ph",
     "name": "COVID-19 Mass Gathering Public Health",
     "issuer": "World Health Organization",
     "issuerShort": "WHO",
-    "date": "2020-10",
-    "displayDate": "Oct 2020",
-    "duration": "6hrs",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/WHO_COV19_PH.jpg",
+    "duration": "6hrs",
+    "versions": [
+      {
+        "issued": "2020-10",
+        "issuedDisplay": "Oct 2020",
+        "current": true,
+        "image": "certs/who_cov19_ph_2020_10"
+      }
+    ],
+    "courseUrl": "https://extranet.who.int/hslp/training/enrol/index.php?id=135",
     "logo": "assets/img/WHO_logo.svg",
-    "courseUrl": "https://extranet.who.int/hslp/training/enrol/index.php?id=135"
+    "image": "certs/who_cov19_ph_2020_10"
   },
   {
     "id": "who_cov19_ohs",
     "name": "COVID-19 Occupational Health & Safety",
     "issuer": "World Health Organization",
     "issuerShort": "WHO",
-    "date": "2020-10",
-    "displayDate": "Oct 2020",
-    "duration": "1hr",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/WHO_COV19_OHS.jpg",
+    "duration": "1hr",
+    "versions": [
+      {
+        "issued": "2020-10",
+        "issuedDisplay": "Oct 2020",
+        "current": true,
+        "image": "certs/who_cov19_ohs_2020_10"
+      }
+    ],
+    "courseUrl": "https://openwho.org/courses/COVID-19-occupational-health-and-safety",
     "logo": "assets/img/WHO_logo.svg",
-    "courseUrl": "https://openwho.org/courses/COVID-19-occupational-health-and-safety"
+    "image": "certs/who_cov19_ohs_2020_10"
   },
   {
     "id": "who_cov19_ra",
     "name": "COVID-19 Mass Gathering Risk Assessments",
     "issuer": "World Health Organization",
     "issuerShort": "WHO",
-    "date": "2020-10",
-    "displayDate": "Oct 2020",
-    "duration": "1hr",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/WHO_COV19_RA.jpg",
+    "duration": "1hr",
+    "versions": [
+      {
+        "issued": "2020-10",
+        "issuedDisplay": "Oct 2020",
+        "current": true,
+        "image": "certs/who_cov19_ra_2020_10"
+      }
+    ],
+    "courseUrl": "https://openwho.org/courses/WHO-COVID-19-mass-gatherings-risk-assessment-training",
     "logo": "assets/img/WHO_logo.svg",
-    "courseUrl": "https://openwho.org/courses/WHO-COVID-19-mass-gatherings-risk-assessment-training"
+    "image": "certs/who_cov19_ra_2020_10"
   },
   {
     "id": "ausgov_cov19",
     "name": "COVID-19 Infection Control",
     "issuer": "Australian Government",
     "issuerShort": "AUS GOV",
-    "date": "2020-10",
-    "displayDate": "Oct 2020",
-    "duration": "2hrs",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/AUSGOV_COV19.jpg",
+    "duration": "2hrs",
+    "versions": [
+      {
+        "issued": "2020-10",
+        "issuedDisplay": "Oct 2020",
+        "current": true,
+        "image": "certs/ausgov_cov19_2020_10"
+      }
+    ],
+    "courseUrl": "https://www.health.gov.au/resources/apps-and-tools/covid-19-infection-control-training",
     "logo": "assets/img/AUSGOV_logo.svg",
-    "courseUrl": "https://www.health.gov.au/resources/apps-and-tools/covid-19-infection-control-training"
+    "image": "certs/ausgov_cov19_2020_10"
   },
   {
     "id": "tafesa_electro",
     "name": "Certificate II Electrotechnology",
     "issuer": "TAFE South Australia",
     "issuerShort": "TAFE SA",
-    "date": "2013-07",
-    "displayDate": "Jul 2013",
-    "duration": "3 months",
     "category": "engineering",
     "status": "complete",
-    "image": "assets/img/TafeSA-Electrotechnology-Cert.jpg",
+    "duration": "3 months",
+    "versions": [
+      {
+        "issued": "2013-07",
+        "issuedDisplay": "Jul 2013",
+        "current": true,
+        "image": "certs/tafesa_electro_2013_07"
+      }
+    ],
     "logo": "assets/img/TafeSA_whiteOnRed.svg",
-    "courseUrl": null
+    "image": "certs/tafesa_electro_2013_07"
   },
   {
     "id": "atec_tt",
     "name": "License to Conduct Electrical Equipment Testing",
     "issuer": "Adelaide Training & Employment Centre",
     "issuerShort": "ATEC",
-    "date": "2015-11",
-    "displayDate": "Nov 2015",
-    "duration": "8hrs",
     "category": "engineering",
     "status": "complete",
-    "image": "assets/img/ATEC-cert.jpg",
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2015-11",
+        "issuedDisplay": "Nov 2015",
+        "current": true,
+        "image": "certs/atec_tt_2015_11"
+      }
+    ],
+    "courseUrl": "https://training.atec.asn.au/training-courses/electrotechnology/test-and-tag-non-accredited-305-inc-gst-pp.cfm",
     "logo": "assets/img/ATEC-logo.svg",
-    "courseUrl": "https://training.atec.asn.au/training-courses/electrotechnology/test-and-tag-non-accredited-305-inc-gst-pp.cfm"
+    "image": "certs/atec_tt_2015_11"
   },
   {
     "id": "stjohn_ofa",
     "name": "Occupational First Aid",
     "issuer": "St John Ambulance SA",
     "issuerShort": "St John SA",
-    "date": "2013-12",
-    "displayDate": "Dec 2013",
-    "duration": "30hrs",
     "category": "safety",
     "status": "superseded",
+    "duration": "30hrs",
+    "versions": [
+      {
+        "issued": "2013-12",
+        "issuedDisplay": "Dec 2013",
+        "current": true,
+        "image": null
+      }
+    ],
     "supersededBy": "stjohn_advfa",
-    "image": "assets/img/StJohn-cert.jpg",
+    "courseUrl": "https://one.stjohnsa.com.au/classBookings.aspx?webcat=COMM2&couid=OFA14",
     "logo": "assets/img/StJohn-horiz-logo.png",
-    "courseUrl": "https://one.stjohnsa.com.au/classBookings.aspx?webcat=COMM2&couid=OFA14"
+    "image": null
   },
   {
     "id": "hia_fss1",
     "name": "Food Safety Supervisor Level 1",
     "issuer": "Hospitality Institute of Australasia",
     "issuerShort": "HIA",
-    "date": "2015-01",
-    "displayDate": "Jan 2015",
-    "duration": "8hrs",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/HIA-FSS1-cert.jpg",
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2015-01",
+        "issuedDisplay": "Jan 2015",
+        "current": true,
+        "image": "certs/hia_fss1_2015_01"
+      }
+    ],
+    "courseUrl": "http://hia.edu.au/hospitality-and-retail/food-safety-supervisor/",
     "logo": "assets/img/HIA-logo_short.svg",
-    "courseUrl": "http://hia.edu.au/hospitality-and-retail/food-safety-supervisor/"
+    "image": "certs/hia_fss1_2015_01"
   },
   {
     "id": "hia_fss2",
     "name": "Food Safety Supervisor Level 2",
     "issuer": "Hospitality Institute of Australasia",
     "issuerShort": "HIA",
-    "date": "2015-01",
-    "displayDate": "Jan 2015",
-    "duration": "8hrs",
     "category": "safety",
     "status": "complete",
-    "image": "assets/img/HIA-FSS2-cert.jpg",
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2015-01",
+        "issuedDisplay": "Jan 2015",
+        "current": true,
+        "image": "certs/hia_fss2_2015_01"
+      }
+    ],
+    "courseUrl": "http://hia.edu.au/hospitality-and-retail/food-safety-supervisor/",
     "logo": "assets/img/HIA-logo_short.svg",
-    "courseUrl": "http://hia.edu.au/hospitality-and-retail/food-safety-supervisor/"
+    "image": "certs/hia_fss2_2015_01"
   },
   {
     "id": "hia_rsa",
     "name": "Responsible Service of Alcohol",
     "issuer": "Hospitality Institute of Australasia",
     "issuerShort": "HIA",
-    "date": "2016-02",
-    "displayDate": "Feb 2016",
-    "duration": "4hrs",
     "category": "licenses",
     "status": "complete",
-    "image": "assets/img/HIA-RSA-cert.jpg",
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2016-02",
+        "issuedDisplay": "Feb 2016",
+        "current": true,
+        "image": "certs/hia_rsa_2016_02"
+      }
+    ],
+    "courseUrl": "http://www.hia.edu.au/responsible-service-of-alcohol/queensland/",
     "logo": "assets/img/HIA-logo_short.svg",
-    "courseUrl": "http://www.hia.edu.au/responsible-service-of-alcohol/queensland/"
+    "image": "certs/hia_rsa_2016_02"
   },
   {
     "id": "citc_ri",
     "name": "Licence to Perform Rigging — Intermediate",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2019-02",
-    "displayDate": "Feb 2019",
-    "duration": "40hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-RI-cert.jpg",
+    "duration": "40hrs",
+    "versions": [
+      {
+        "issued": "2019-02",
+        "issuedDisplay": "Feb 2019",
+        "current": true,
+        "image": "certs/citc_ri_2019_02"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=6326&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_RI.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=6326&type=w"
+    "image": "certs/citc_ri_2019_02"
   },
   {
     "id": "citc_cn",
     "name": "Licence to Operate Non-Slewing Mobile Crane",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2019-02",
-    "displayDate": "Feb 2019",
-    "duration": "32hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-CN-cert.jpg",
+    "duration": "32hrs",
+    "versions": [
+      {
+        "issued": "2019-02",
+        "issuedDisplay": "Feb 2019",
+        "current": true,
+        "image": "certs/citc_cn_2019_02"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58600&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_CN.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58600&type=w"
+    "image": "certs/citc_cn_2019_02"
   },
   {
     "id": "citc_rb",
     "name": "Licence to Perform Rigging — Basic",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2015-12",
-    "displayDate": "Dec 2015",
-    "duration": "40hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-RB-cert.jpg",
+    "duration": "40hrs",
+    "versions": [
+      {
+        "issued": "2015-12",
+        "issuedDisplay": "Dec 2015",
+        "current": true,
+        "image": "certs/citc_rb_2015_12"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=4658&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_RB.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=4658&type=w"
+    "image": "certs/citc_rb_2015_12"
   },
   {
     "id": "citc_tmh",
     "name": "Licence to Operate Telescopic Materials Handler",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2012-12",
-    "displayDate": "Dec 2012",
-    "duration": "10hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-TMH-cert.jpg",
+    "duration": "10hrs",
+    "versions": [
+      {
+        "issued": "2012-12",
+        "issuedDisplay": "Dec 2012",
+        "current": true,
+        "image": "certs/citc_tmh_2012_12"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=62627&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_TMH.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=62627&type=w"
+    "image": "certs/citc_tmh_2012_12"
   },
   {
     "id": "citc_ewp",
     "name": "Licence to Operate Elevating Work Platform (>11m)",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2012-12",
-    "displayDate": "Dec 2012",
-    "duration": "16hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-EWP-cert.jpg",
+    "duration": "16hrs",
+    "versions": [
+      {
+        "issued": "2012-12",
+        "issuedDisplay": "Dec 2012",
+        "current": true,
+        "image": "certs/citc_ewp_2012_12"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58598&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_EWP.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58598&type=w"
+    "image": "certs/citc_ewp_2012_12"
   },
   {
     "id": "citc_dg",
     "name": "Licence to Perform Dogging",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2012-12",
-    "displayDate": "Dec 2012",
-    "duration": "40hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-DG-cert.jpg",
+    "duration": "40hrs",
+    "versions": [
+      {
+        "issued": "2012-12",
+        "issuedDisplay": "Dec 2012",
+        "current": true,
+        "image": "certs/citc_dg_2012_12"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=6324&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_DG.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=6324&type=w"
+    "image": "certs/citc_dg_2012_12"
   },
   {
     "id": "citc_wh",
     "name": "Work Safely at Heights",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2012-12",
-    "displayDate": "Dec 2012",
-    "duration": "8hrs",
     "category": "licenses",
     "status": "current",
-    "image": "assets/img/CITC-WH-cert.jpg",
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2012-12",
+        "issuedDisplay": "Dec 2012",
+        "current": true,
+        "image": "certs/citc_wh_2012_12"
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=5941&type=w",
     "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_WH.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=5941&type=w"
+    "image": "certs/citc_wh_2012_12"
   },
   {
     "id": "citc_fl",
     "name": "Licence to Operate Forklift",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2011-11",
-    "displayDate": "Nov 2011",
-    "duration": "16hrs",
     "category": "licenses",
     "status": "current",
-    "image": null,
-    "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_FL.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58595&type=w"
+    "duration": "16hrs",
+    "versions": [
+      {
+        "issued": "2011-11",
+        "issuedDisplay": "Nov 2011",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=58595&type=w",
+    "logo": "assets/img/CITC-logo.svg"
   },
   {
     "id": "citc_wc",
     "name": "Construction Induction (White Card)",
     "issuer": "Construction Industry Training Centre",
     "issuerShort": "CITC",
-    "date": "2011-02",
-    "displayDate": "Feb 2011",
-    "duration": "8hrs",
     "category": "licenses",
     "status": "current",
-    "image": null,
-    "logo": "assets/img/CITC-logo.svg",
-    "icon": "assets/img/CITC-icon_WC.svg",
-    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=34624&type=w"
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2011-02",
+        "issuedDisplay": "Feb 2011",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.citc.com.au/index.php/courses-available/?course=34624&type=w",
+    "logo": "assets/img/CITC-logo.svg"
   },
   {
     "id": "vw_core",
     "name": "Vectorworks Core Concepts Training",
     "issuer": "Vectorworks University",
     "issuerShort": "Vectorworks",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "Online",
     "category": "design",
     "status": "complete",
-    "image": "assets/img/VW_Core-Concepts.jpg",
+    "duration": "Online",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true,
+        "image": "certs/vw_core_2020_05"
+      }
+    ],
+    "courseUrl": "https://university.vectorworks.net",
     "logo": "assets/img/VW-logo-monogram_on_black.svg",
-    "courseUrl": "https://university.vectorworks.net"
+    "image": "certs/vw_core_2020_05"
   },
   {
     "id": "vw_inter",
     "name": "Vectorworks Intermediate Concepts Training",
     "issuer": "Vectorworks University",
     "issuerShort": "Vectorworks",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "Online",
     "category": "design",
     "status": "complete",
-    "image": "assets/img/VW_Intermediate-Concepts.jpg",
+    "duration": "Online",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true,
+        "image": "certs/vw_inter_2020_05"
+      }
+    ],
+    "courseUrl": "https://university.vectorworks.net",
     "logo": "assets/img/VW-logo-monogram_on_black.svg",
-    "courseUrl": "https://university.vectorworks.net"
+    "image": "certs/vw_inter_2020_05"
   },
   {
     "id": "vw_bim",
     "name": "Vectorworks BIM for Landscape Design",
     "issuer": "Vectorworks University",
     "issuerShort": "Vectorworks",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "Online",
     "category": "design",
     "status": "complete",
-    "image": "assets/img/VW_BIM_Cert.jpg",
+    "duration": "Online",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "certs/vw_bim_2020_06"
+      }
+    ],
+    "courseUrl": "https://university.vectorworks.net",
     "logo": "assets/img/VW-logo-monogram_on_black.svg",
-    "courseUrl": "https://university.vectorworks.net"
+    "image": "certs/vw_bim_2020_06"
   },
   {
     "id": "vw_dwg",
     "name": "Vectorworks DWG File Exchange",
     "issuer": "Vectorworks University",
     "issuerShort": "Vectorworks",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "Online",
     "category": "design",
     "status": "complete",
-    "image": "assets/img/VW_DWG_Cert.jpg",
+    "duration": "Online",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "certs/vw_dwg_2020_06"
+      }
+    ],
+    "courseUrl": "https://university.vectorworks.net",
     "logo": "assets/img/VW-logo-monogram_on_black.svg",
-    "courseUrl": "https://university.vectorworks.net"
+    "image": "certs/vw_dwg_2020_06"
   },
   {
     "id": "cc_webdev",
     "name": "Web Development Career Path",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-07",
-    "displayDate": "Jul 2020",
-    "duration": "Full Path",
     "category": "webdev",
     "status": "complete",
-    "image": "assets/img/logo_webDev_color.svg",
+    "duration": "Full Path",
+    "versions": [
+      {
+        "issued": "2020-07",
+        "issuedDisplay": "Jul 2020",
+        "current": true,
+        "image": "assets/img/logo_webDev_color.svg"
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
     "logo": "assets/img/Codecademy_onWhite.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "image": "assets/img/logo_webDev_color.svg"
   },
   {
     "id": "cc_foundations",
     "name": "Code Foundations Career Path",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "Full Path",
     "category": "webdev",
     "status": "complete",
-    "image": "assets/img/logo_codeFoundations_color.svg",
+    "duration": "Full Path",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "assets/img/logo_codeFoundations_color.svg"
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
     "logo": "assets/img/Codecademy_onWhite.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "image": "assets/img/logo_codeFoundations_color.svg"
   },
   {
     "id": "cc_html",
     "name": "Learn HTML",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "9hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/html-5-notext.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "9hrs",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/html-5-notext.svg"
   },
   {
     "id": "cc_css",
     "name": "Learn CSS",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "15hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/css3.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "15hrs",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/css3.svg"
   },
   {
     "id": "cc_js",
     "name": "Learn JavaScript",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "20hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/javascript-4.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "20hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/javascript-4.svg"
   },
   {
     "id": "cc_react",
     "name": "Learn React",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-07",
-    "displayDate": "Jul 2020",
-    "duration": "20hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/logo_react_blue.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "20hrs",
+    "versions": [
+      {
+        "issued": "2020-07",
+        "issuedDisplay": "Jul 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/logo_react_blue.svg"
   },
   {
     "id": "cc_node",
     "name": "Learn Node.js",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "5hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/logo_nodeJS_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "5hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/logo_nodeJS_color.svg"
   },
   {
     "id": "cc_sql",
     "name": "Learn SQL",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "8hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/logo_sql_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "8hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/logo_sql_color.svg"
   },
   {
     "id": "cc_git",
     "name": "Learn Git & GitHub",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": "assets/img/logo_GitHub_onBlack.svg",
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "assets/img/logo_GitHub_onBlack.svg"
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
     "logo": "assets/img/logo_git_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "image": "assets/img/logo_GitHub_onBlack.svg"
   },
   {
     "id": "cc_express",
     "name": "Learn Express.js",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/logo_express_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
+    "logo": "assets/img/logo_express_color.svg"
   },
   {
     "id": "cc_responsive",
     "name": "Learn Responsive Design",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-06",
-    "displayDate": "Jun 2020",
-    "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": "assets/img/logo_responsiveDesign_color.svg",
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2020-06",
+        "issuedDisplay": "Jun 2020",
+        "current": true,
+        "image": "assets/img/logo_responsiveDesign_color.svg"
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
     "logo": "assets/img/logo_responsiveDesign_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "image": "assets/img/logo_responsiveDesign_color.svg"
   },
   {
     "id": "cc_commandline",
     "name": "Learn the Command Line",
     "issuer": "Codecademy",
     "issuerShort": "Codecademy",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "4hrs",
     "category": "webdev",
     "status": "complete",
-    "image": "assets/img/logo_commandLine_color.svg",
+    "duration": "4hrs",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true,
+        "image": "assets/img/logo_commandLine_color.svg"
+      }
+    ],
+    "courseUrl": "https://www.codecademy.com/profiles/AMLFI",
     "logo": "assets/img/logo_commandLine_color.svg",
-    "courseUrl": "https://www.codecademy.com/profiles/AMLFI"
+    "image": "assets/img/logo_commandLine_color.svg"
   },
   {
     "id": "ss_adobe",
     "name": "Adobe Creative Cloud Design Suite",
     "issuer": "Skillshare",
     "issuerShort": "Skillshare",
-    "date": "2020-05",
-    "displayDate": "May 2020",
-    "duration": "Online",
     "category": "design",
     "status": "complete",
-    "image": null,
-    "logo": "assets/img/Skillshare-logo.svg",
-    "courseUrl": "https://www.skillshare.com/user/amlfitzgerald"
+    "duration": "Online",
+    "versions": [
+      {
+        "issued": "2020-05",
+        "issuedDisplay": "May 2020",
+        "current": true
+      }
+    ],
+    "courseUrl": "https://www.skillshare.com/user/amlfitzgerald",
+    "logo": "assets/img/Skillshare-logo.svg"
   }
 ]
