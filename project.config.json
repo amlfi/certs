@@ -3,7 +3,9 @@
   "projectName": "AF Certs",
   "brand": "makes-events",
   "voice": "casual",
-  "audience": "public",
+  "audience": [
+    "public"
+  ],
   "webStack": "daisyui",
   "pageType": "portfolio",
   "cloudflare": {
